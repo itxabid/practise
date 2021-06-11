@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin:0;padding: 0;}
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Oswald', sans-serif; font-weight:500;
+}
+
+section{
+    padding: 80px 0px;
+}
+
+.topbarMain {
+    background: #F5F5F5;
+}
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+ 
+}
+.phone {
+    width: 200px;
+    float: left;
+    padding: 15px 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.email {
+    width: 758px;
+    float: left;
+    padding: 15px 10px;
+}
+
+.social {
+    width: 140px;
+    float: left;
+    transition-duration: .3s;
+}
+.topbarWrapper{
+    overflow: hidden;
+}
+.social a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: #333333;
+}
+.social a:first-child{
+    border-left:1px solid #ddd;
+}
+.phone i {
+    color: #FF6C00;
+}
+
+.email i {
+    color: #FF6C00;
+}
+.social i:hover{
+    color:#FF6C00;
+    transition-duration: .3s;
+}
+.primaryWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 22px;
+}
+.menu {
+    float: left;
+    width: 990px;
+}
+
+ul.mainMenuItem {
+    list-style: none;
+    float: right;
+}
+
+
+
+ul.mainMenuItem li {
+    float: left;
+    padding: 30px 24px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+ul.mainMenuItem li a {
+    text-decoration: none;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    color: #1c1c1c;
+    display: block;
+    font-weight: 500;
+}
+ul.mainMenuItem li a:hover{
+    color:#FF6C00 ;
+    transition-duration: .3s;
+}
+a#home {
+    color: #FF6C00;
+}
+.homeSlider{
+    background: url(../image/slide-1.jpg);
+    background-repeat: no-repeat;
+    padding: 0px;
+    background-size: cover;
+    background-position: center center;
+}
+.sliderContent h1{
+   font-size: 50px;
+   font-family: 'Oswald';
+   text-transform: uppercase;
+   width: 503px;
+   font-weight: 500;
+   margin-bottom: 18px;
+   float: left;
+   margin-top: 130px;
+}
+.sliderContent{
+    color: white;
+}
+.sliderContent p {
+    width: 490px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.sliderContent button {
+    color: white;
+    background: #FF5200;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    border: none;
+    padding: 14px 42px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-top: 26px;
+    margin-bottom: 134px;
+    letter-spacing: 1px;
+}
+.sliderContent button:hover{
+    background:black;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.sliderNav {
+    width: 44px;
+    margin: auto;
+    padding: 35px 0px;
+}
+
+.sliderNav span {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 3px solid #ddd;
+    border-radius: 100%;
+    display: block;
+    float: left;
+    margin: 3px;
+    cursor: pointer;
+}
+#services{
+    background: #F5F6F6;
+}
+.singleBox {
+    width: 224.5px;
+    background: white;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+}
+
+.sboxWrapper{
+    overflow: hidden;
+}
+
+.sboxTitle {margin: auto;width: 134px;text-align: center;}
+
+.sboxTitle h2 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Oswald',sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 30px 0px;
+    color: #242424;
+}
+.sboxIcon i {
+    font-size: 40px;
+    color: #fb5200;
+    margin-top: 30px;
+}
+.sboxDes p {
+    margin: 30px 0px;
+    color: #606060;
+}
+
+.sboxLink a {
+    text-decoration: none;
+    color: #fb5200;
+    font-weight: 500;
+}
+
+.sboxLink {
+    margin: 30px 0px;
+}
+.sboxLink a i {
+    padding: 0px 0px 0px 10px;
+    font-size: 14px;
+    color: #FF5200;
+}
+.singleBox:hover {
+    background: #FF5200;
+    color: white;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.singleBox:hover h2 {
+    color: white; 
+}
+.singleBox:hover .sboxIcon i{
+    color: white;
+}
+.singleBox:hover .sboxLink a{
+    color: white;
+}
+.singleBox:hover .sboxLink i{
+    color: white;
+}
+.singleBox:hover .sboxDes p{
+    color: white;
+}
+.sboxcolor{
+    background: #FF5200;
+}
+.sboxcolor a{color: white;}
+.sboxcolor h2{color:white}
+.sboxcolor i{color:white;}
+.sboxcolor p{
+    color:white;
+}
+.sboxcolor a i{
+    color: white;
+}
+.workDesc h1 {
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    }
+
+.workEverything {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+.workImage {
+    float: left;
+    width: 535px;
+    height: 434px;
+}
+
+.workImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.workDesc {
+}
+
+.workDesc {
+    width: 535px;
+    float: right;
+}
+
+.headingandP p {
+    color: #4c4c4c;
+    width: 522px;
+    margin-bottom: 25px;
+    line-height: 23px;
+    font-size: 16px;
+}
+
+
+.link a {
+    text-decoration: none;
+    color: white;
+    background: #FF5200;
+    padding: 13px 40px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+.workLinks ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 267px;
+    float: left;
+}
+.workLinks ul li a {
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.workLinks {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.link a:hover{
+    background: black;
+    transition-duration: .5s;
+}
+.workLinks ul li i {
+    color: #717171;
+    margin-right: 15px;
+    font-size: 11px;
+}
+
+
+.workLinks ul li a:hover{
+    color: #FF6C00;
+    transition-duration: .3s;
+}
+.workLinks ul li:hover{
+    color: #FF6C00;
+}
+
+#chooseUs{
+    background: linear-gradient(#0000007a,#0000007a),url(../image/why-choose-us1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.chooseusWrapper {overflow: hidden;width: 100%;}
+
+.chooseusBox {
+    width: 285px;
+    float: left;
+}
+
+.chooseIcon {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.chooseNumber {
+    color: white;
+    font-family: 'Work Sans';
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.chooseText {
+    color: white;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+#morefromUs{
+    background: #F5F6F6;
+}
+.morefromusTitle h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 14px;
+    padding-bottom: 15px;
+}
+
+.morefromusWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.morefromusTitle p {
+    text-align: center;
+    width: 487px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.morefromusBox {
+    width: 255px;
+    float: left;
+    margin: 15px;
+}
+
+.morefromusBox img {
+    width: 100%;
+}
+.moreboxText h2 {
+    text-align: left;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.moreboxText p {
+    line-height: 25px;
+}
+.morefromusTitle h1:after {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    background: #FF5200;
+    width: 70px;
+    border: 2px solid #FF5200;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.priceplanWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.priceplanIntro h1 {
+    font-family: 'Oswald',sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.priceplanIntro {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.priceplanIntro p {
+    text-align: center;
+    /* width: 487px; */
+}
+.priceplanBox {
+    width: 302px;
+    border: 1px solid #ddd;
+    padding: 30px 28px;
+    float: left;
+    margin-right: 30px;
+}
+
+.priceplanBox h2 {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 25px;
+}
+
+span.span1 {
+    font-size: 45px;
+    font-family: 'Work Sans';
+    font-weight: 800;
+}
+span.span2 {
+    font-size: 23px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+}
+.priceplanBox ul {
+    list-style: none;
+    line-height: 35px;
+}
+.priceplanBox ul li i {
+    color: #FF7C21;
+    font-size: 10px;
+    margin-right: 7px;
+}
+.priceplanBox button {
+    padding: 13px 34px;
+    border: none;
+    background: #FF5200;color: white;
+    font-family: 'Oswald',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-top: 24px;
+}
+.pricingList {
+    margin-top: 20px;
+}
+.priceplanBox:last-child{
+    margin-right: 0px;
+}
+.priceplanBox button:hover {
+    background: black;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+section#latestIdea {
+    overflow: hidden;
+    padding: 0px;
+    height: 400px;
+    position: relative;
+    
+}
+
+.leftImg {
+    width: 50%;
+    float: left;
+    background: url(../image/s02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-position: center center;
+}
+
+.rightContent {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    background: #151515;
+    color: white;
+}
+
+.rcontentIcons {
+    padding: 70px 70px 43px 70px;
+    overflow: hidden;
+}
+.rTitle {
+    padding: 70px 70px 0px 70px;
+}
+.rTitle h1 {
+    font-weight: 500;
+    font-family: 'Oswald';
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.rIconBox {
+    width: 400px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+
+
+.rIcon {width: 70px;float: left;overflow: hidden;}
+
+.rTtitle {
+    float: right;
+    overflow: hidden;
+    width: 326px;
+}
+
+.rIcon i {
+    font-size: 45px;
+    color: #F83312;
+    padding: 2px;
+}
+
+.rTtitle h2 {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 9px;
+    text-transform: uppercase;
+}
+
+.rTtitle span {
+    color: #ddd;
+}
+
+.rIconLeft {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.rIconRight {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+}
+.rTtitle h2:hover {
+    color: #F83312;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+.teamPictureWrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.teamContent {
+    width: 262px;
+    float: left;
+    margin-right: 30px;
+}
+
+.teamsinglePicture img {
+    width: 262px;
+}
+
+.teamPictureDes {
+    border: .5px solid #ddd;
+    padding: 18px;
+    text-align: center;
+    margin-top: -4px;
+}
+.teamPictureDes h3 {
+    font-family: 'Oswald';
+    text-align: center;
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 2px;
+}
+.teamPictureDes span {
+    font-size: 13px;
+    color: #565656;
+}
+.teamButton button {
+    padding: 15px 35px;
+border: none;
+background: black;
+color: white;
+font-family: 'Oswald';
+font-weight: 500;
+font-size: 16px
+;border-radius: 3px;
+letter-spacing: 1px;
+}
+.teamContent:last-child {
+    margin-right: 0px;
+}
+.teamButton {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+.teamButton button:hover {
+    background: #F83312;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.teamsinglePicture {
+    overflow: hidden;
+    position: relative;
+}
+.teamsinglePicture img{
+    transition: .5s;
+}
+
+.socialIcons {
+    position: absolute;
+    width: 152px;
+    bottom: 58px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.socialIcons a {
+    color: white;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    background: red;
+    border-radius: 100%;
+    padding: 4px;
+    margin: 5px;
+    
+}
+.socialIcons a:first-child{
+    background: #3b5998;
+    opacity: 0;
+    transition: .9s;
+}
+.socialIcons a:nth-child(2){
+    background: #00acee;
+    opacity: 0;
+    transition: .7s;
+}
+.socialIcons a:nth-child(3){
+    background: #db4a39;
+    opacity: 0;
+    transition: .5s;
+}
+.socialIcons a:last-child{
+    background:  #0e76a8 ;
+    opacity: 0;
+    transition: .3s;
+}
+.socialIcons a:hover{
+    background: white;
+    color: black;
+    transition-duration: .3s;
+    
+}
+.socialIcons a i {
+    font-size: 12px;
+}
+.teamContent:hover .socialIcons a:first-child{
+    opacity: 1;
+    transform: translateY(20px);
+}
+.teamContent:hover .socialIcons a:nth-child(2){
+    opacity: 1;
+    transform: translateY(20px);
+}
+.teamContent:hover .socialIcons a:nth-child(3){
+    opacity: 1;
+    transform: translateY(20px);
+}
+.teamContent:hover .socialIcons a:last-child{
+    opacity: 1;
+    transform: translateY(20px);
+}
+.teamContent:hover .teamsinglePicture img{
+    transform: scale(1.1);
+}
+.teamContent:hover{
+    cursor: pointer;
+}
